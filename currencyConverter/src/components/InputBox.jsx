@@ -50,3 +50,4 @@ const amountInputId=useId();
 }
 
 export default InputBox;
+

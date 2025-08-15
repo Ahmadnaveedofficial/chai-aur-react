@@ -61,6 +61,6 @@ function GitHub() {
 export default GitHub;
 
 export const githubLoder=async () => {
-    const Response =await fetch('http://api.github.com/users/Ahmadnaveedofficial')
+    const Response =await fetch('http://api.github.com/users/Ahmadnaveedofficial');
     return Response.json()
 }
